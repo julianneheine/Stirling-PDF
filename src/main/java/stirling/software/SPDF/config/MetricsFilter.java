@@ -41,6 +41,8 @@ public class MetricsFilter extends OncePerRequestFilter {
         }
 
         filterChain.doFilter(request, response);
+        
+        System.out.print("Julianne Heine");
     }
 
     
